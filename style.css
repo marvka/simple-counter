@@ -1,0 +1,27 @@
+html {
+  font-size: 5rem;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+#display {
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  height: 1rem;
+  text-align: center;
+}
+
+button {
+  font-size: 1rem;
+  flex: 1;
+}
